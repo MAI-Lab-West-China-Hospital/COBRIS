@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chest-CT Opportunistic Breast Risk Stratification (COBRIS)
 
 Official repository of COBRIS (Chest-CT Opportunistic Breast Risk Stratification):
@@ -283,7 +282,4 @@ tensorboard --logdir Risk_Stratification/runs_uni_scratch/tb
 - Distributed training assumes NCCL and CUDA GPUs.
 - The classification script uses CUDA AMP during training.
 - The age-pretraining script supports CPU execution for non-distributed runs, but large 3D volumes are intended for GPU training.
-=======
-# COBRIS
-Official repository of COBRIS (Chest-CT Opportunistic Breast Risk Stratification)
->>>>>>> 21f3ca9297678c5683adba0b8aa4e02ffab18e53
+
