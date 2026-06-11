@@ -1,4 +1,4 @@
-# CT Breast Manuscript Modeling Code
+# Deep Learning for Opportunistic Breast Cancer Risk Stratification at Routine Chest CT Using Biologic Age Pretraining
 
 Official repository of COBRIS (Chest-CT Opportunistic Breast Risk Stratification):
 
