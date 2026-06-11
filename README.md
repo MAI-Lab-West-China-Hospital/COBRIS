@@ -1,4 +1,4 @@
-# Chest-CT Opportunistic Breast Risk Stratification (COBRIS)
+# CT Breast Manuscript Modeling Code
 
 Official repository of COBRIS (Chest-CT Opportunistic Breast Risk Stratification):
 
@@ -10,6 +10,12 @@ Both workflows use PyTorch and MONAI 3D ResNet-style backbones, MONAI `Persisten
 ## Workflow
 
 ![COBRIS workflow](workflow.jpg)
+
+## Breast Segmentation
+
+The breast segmentation model used for preprocessing is available on Hugging Face:
+
+https://huggingface.co/huaiqiang/nnUnet_CTBreast_Segmentation
 
 ## Repository Layout
 
@@ -282,4 +288,3 @@ tensorboard --logdir Risk_Stratification/runs_uni_scratch/tb
 - Distributed training assumes NCCL and CUDA GPUs.
 - The classification script uses CUDA AMP during training.
 - The age-pretraining script supports CPU execution for non-distributed runs, but large 3D volumes are intended for GPU training.
-
